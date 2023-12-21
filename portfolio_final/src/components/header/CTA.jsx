@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../../assets/CV.docx'
+
 const CTA = () => {
   return (
     <div className='cta'> 
