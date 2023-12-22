@@ -38,7 +38,22 @@ header{
     height: 2rem;
     background: var(--color-primary);
 }
+.lighting_text{
+    /* text-decoration: underline; */
+    -webkit-box-reflect: below -150px linear-gradient(transparent, #0004);
+    padding-bottom: 4rem;
+    animation: animate;
+}
 
+@keyframes animate {
+    0%{
+        color: #0e3742;
+        box-shadow: none;
+    }
+    100%{
+        color: #fff;
+    }
+}
 /* ================================= ME =================================== */
  .me{
     background: linear-gradient (var(--color-primary), transparent);
