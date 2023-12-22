@@ -1,4 +1,5 @@
 import React from 'react'
+import "./About.css"
 import ME from '../../assets/programer.jpg'
 import { FiAward } from "react-icons/fi";
 import { CiFolderOn } from "react-icons/ci";
@@ -12,7 +13,7 @@ const About = () => {
       <h2>About me</h2>
       <div className='container about_container'>
         <div className='about_me'>
-          <div className="about_me_image">
+          <div className="about_me-image">
             <img src={ME} alt="" />
           </div>
 
@@ -21,7 +22,7 @@ const About = () => {
           <div className="about_cards">
             <article className='about_card'>
             <FiAward className='about_icon' />
-              <h5>experiene</h5>
+              <h5>Experiene</h5>
               <small>
                 3+ Years working
               </small>
