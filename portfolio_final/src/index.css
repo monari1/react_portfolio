@@ -33,10 +33,11 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/final.jpg);
+  background: #34495e;
+  /* background-image: url(../src/assets/final.jpg); */
 }
 /*======================== GENERAL STYLES=================================*/
 
