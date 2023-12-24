@@ -7,13 +7,14 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I Offer</h5>
-      <h1> Services </h1>
+      <h2> Services </h2>
       <div className='container services_container'>
          {/* FIRST SERVICE */}
-         <article>
+         <article className='service'>
           <div className="service_head">
             <h3>UI/UX Design</h3>
-            <ul className='service_list'>
+          </div>
+          <ul className='service_list'>
               <li><FaCheck className='service_list_icon'/>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
@@ -31,14 +32,14 @@ const Services = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
                 
             </ul>
-          </div>
         </article>
 
         {/* SECOND SERVICE */}
-        <article>
+        <article className='service'>
           <div className="service_head">
-            <h3>WEB DEVELOPMENT</h3>
-            <ul className='service_list'>
+            <h3>UI/UX Design</h3>
+          </div>
+          <ul className='service_list'>
               <li><FaCheck className='service_list_icon'/>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
@@ -56,14 +57,13 @@ const Services = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
                 
             </ul>
-          </div>
         </article>
-
         {/* THIRD SERVICE */}
-        <article>
+        <article className='service'>
           <div className="service_head">
-            <h3>DATA ANALYSIS</h3>
-            <ul className='service_list'>
+            <h3>UI/UX Design</h3>
+          </div>
+          <ul className='service_list'>
               <li><FaCheck className='service_list_icon'/>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
@@ -81,7 +81,6 @@ const Services = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p></li>
                 
             </ul>
-          </div>
         </article>
       
       </div>
