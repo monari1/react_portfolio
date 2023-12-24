@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='about'>
       <h5>Get to Know</h5>
-      <h2>About me</h2>
+      <h2>About Me</h2>
       <div className='container about_container'>
         <div className='about_me'>
           <div className="about_me-image">
@@ -22,23 +22,23 @@ const About = () => {
           <div className="about_cards">
             <article className='about_card'>
             <FiAward className='about_icon' />
-              <h5>Experiene</h5>
+              <h5>Experience</h5>
               <small>
-                3+ Years working
+                3+ Years Working
               </small>
             </article>
             <article className='about_card'>
             <FiUsers className='about_icon' />
               <h5>Cients</h5>
               <small>
-                50 clients globally
+                10 Clients Globally
               </small>
             </article>
             <article className='about_card'>
             <CiFolderOn className='about_icon' />
               <h5>Projects</h5>
               <small>
-                10+ completed projects
+                10+ Completed Projects
               </small>
             </article>
           </div>
