@@ -42,16 +42,21 @@ header{
     /* text-decoration: underline; */
     -webkit-box-reflect: below -150px linear-gradient(transparent, #0004);
     padding-bottom: 4rem;
-    animation: animate;
+    animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
-    0%{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 90.1%, 92%{
         color: #0e3742;
-        box-shadow: none;
+        text-shadow: none;
     }
-    100%{
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%,80.1%,90%, 92.1%, 100%{
         color: #fff;
+        text-shadow: 0, 0, 10px, #03bcf4,
+        0, 0, 10px, #03bcf4, 
+        0, 0, 10px, #03bcf4, 
+        0, 0, 10px, #03bcf4, 
+        0, 0, 10px, #03bcf4,;
     }
 }
 /* ================================= ME =================================== */
