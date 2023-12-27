@@ -1,11 +1,6 @@
 .container.testimonials_container{
-    display: grid;
-    gap: 2rem;
     width: 50%;
-    grid-template-columns: 2fr 2fr 2fr;
-
-
-   
+    padding-bottom: 4rem;
 }
 
 .client_avatar{
