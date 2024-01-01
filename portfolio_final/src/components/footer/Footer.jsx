@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
@@ -10,7 +11,7 @@ const Footer = () => {
     <footer>
       <a href="#" className='footer_logo'> Monari</a>
       <ul className="permalinks">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
