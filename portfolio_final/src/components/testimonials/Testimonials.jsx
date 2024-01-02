@@ -1,5 +1,5 @@
 import React from 'react'
-import IMAGE from '../../assets/grad2 (1).jpg'
+import IMAGE from '../../assets/avata.jpg'
 import './Testimonials.css'
 import { Pagination } from 'swiper/modules';
 
@@ -15,18 +15,18 @@ const data =
 
 [ {
     avatar: IMAGE,
-    name: 'Francis Monari', 
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo eos, itaque voluptate earum non dignissimos! Perspiciatis iure nulla libero!"
+    name: 'Michael Monari', 
+    review: "Exceptional Full Stack Developer: (⭐⭐⭐⭐⭐) Francis showcased outstanding full-stack expertise, seamlessly integrating front-end and back-end technologies. Their commitment to quality, innovation, and prompt communication exceeded expectations. Highly recommend for top-notch development services."
   },
   {
     avatar: IMAGE,
-    name: 'Kimani Mburu', 
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo eos, itaque voluptate earum non dignissimos! Perspiciatis iure nulla libero!"
+    name: 'Derrick Malongo', 
+    review: "Reliable & Efficient Full Stack Developer: (⭐⭐⭐⭐⭐) Mr.Monari delivered a robust, scalable application with exceptional coding skills. Their commitment to deadlines, clear communication, and high-quality work made the collaboration smooth and satisfying. Would gladly hire again."
   },
   {
     avatar: IMAGE,
-    name: 'Kevin Wamalwa', 
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quo eos, itaque voluptate earum non dignissimos! Perspiciatis iure nulla libero!"
+    name: 'Brelliant Otieno', 
+    review: "Outstanding Full Stack Professional: (⭐⭐⭐⭐⭐) Francis demonstrated creative problem-solving, delivering a flawless full-stack solution. Open communication, regular updates, and dedication to client satisfaction set them apart. Highly recommend for any project requiring a skilled and reliable full-stack developer."
   },
 
 ]

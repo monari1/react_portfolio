@@ -29,9 +29,9 @@ const About = () => {
             </article>
             <article className='about_card'>
             <FiUsers className='about_icon' />
-              <h5>Cients</h5>
+              <h5>Clients</h5>
               <small>
-                10 Clients Globally
+                Multiple Clients
               </small>
             </article>
             <article className='about_card'>
@@ -43,10 +43,21 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Magnam saepe ipsa non veniam vitae a facere, cum assumenda accusamus, 
-             consequatur at? Dolore voluptates placeat eum rerum modi laboriosam dolorem fugiat!
+          As a seasoned professional in the realm of web development, I bring a wealth of experience in both backend and frontend technologies. 
+          With a robust three-year background, I have honed my skills as a proficient backend developer, designing and implementing secure and scalable server-side solutions.
           </p>
+          
+          <p>
+          A testament to my commitment to growth and diversification, I am currently delving into the realm of game development, showcasing my insatiable curiosity and passion for staying at the forefront of emerging technologies. 
+
+          </p>
+          <p>
+          With a holistic understanding of the development lifecycle, 
+          a proven track record, and an ever-evolving skill set, I am poised to contribute to cutting-edge projects and collaborative endeavors that demand a fusion of technical prowess and creative insight.
+
+          </p>
+          
+       
           <a href="#contacts" className='btn btn-primary'> Let's Talk</a>
 
 

@@ -9,9 +9,9 @@ import { FaGithub } from "react-icons/fa";
 const HeaderSocial = () => {
   return (
     <div className='header_social'>
-        <a href="https://linkedin.com" target= "_blank"> <FaLinkedin /></a>
-        <a href="https://github.com" target='_blank'> <FaGithub /> </a>
-        <a href="https://twitter.com" target='_blank'> <FaSquareXTwitter /></a>
+        <a href="https://www.linkedin.com/in/francis-monari-969436138/" target= "_blank" rel="noreferrer"> <FaLinkedin /></a>
+        <a href="https://github.com/monari1" target='_blank' rel="noreferrer"> <FaGithub /> </a>
+        <a href="https://twitter.com/xmonari" target='_blank' rel="noreferrer"> <FaSquareXTwitter /></a>
 
 
     </div>

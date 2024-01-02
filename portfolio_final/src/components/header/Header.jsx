@@ -6,7 +6,7 @@ import "./header.css"
 
 const Header = () => {
   return (
-    <header>
+    <header id = "header">
       <div className="container header_container">
         <h5>
           Hello, I'm 
@@ -15,14 +15,14 @@ const Header = () => {
           FRANCIS MONARI
         </h1>
         <h5 className='text-light'>
-          Fullstack Developer
+          A Fullstack Developer
         </h5>
         <CTA />
         <HeaderSocial/>
         <div className='me'>
           <img src={ME} alt="me" />
         </div>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="#contacts" className='scroll_down'>Scroll Down</a>
 
       </div>
     </header>

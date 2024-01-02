@@ -71,17 +71,11 @@ const Experience = () => {
             <article className='experience_detail'>
             <FaUserCheck className='experience_details_icon'/>
             <div>
-            <h4>MySQL, Postgres</h4>
+            <h4>MySQL, Postgres, Docker</h4>
             <small className='text_light'>Intermediate</small>
             </div>
             </article>
-            <article className='experience_detail'>
-            <FaUserCheck className='experience_details_icon'/>
-            <div>
-            <h4>Docker & Kubernetes</h4>
-            <small className='text_light'>Intermediate</small>
-            </div>
-            </article>
+           
           </div>  
         </div>
 
@@ -93,7 +87,7 @@ const Experience = () => {
             <article className='experience_detail'>
             <FaUserCheck className='experience_details_icon'/>
             <div>
-            <h4>Excel</h4>
+            <h4>Excel/R</h4>
             <small className='text_light'>Experienced</small>
             </div>
             </article>
@@ -124,14 +118,14 @@ const Experience = () => {
             <FaUserCheck className='experience_details_icon'/>
             <div>
             <h4>Blender</h4>
-            <small className='text_light'>Intermediate</small>
+            <small className='text_light'>Beginner</small>
             </div>
             </article>
             <article className='experience_detail'>
             <FaUserCheck className='experience_details_icon'/>
             <div>
             <h4>Unity </h4>
-            <small className='text_light'>Intermediate</small>
+            <small className='text_light'>Beginner</small>
             </div>
             </article>
             <article className='experience_detail'>
