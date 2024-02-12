@@ -1,6 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
-import ME from '../../assets/grad2 (1).jpg'
+import ME from '../../assets/grad2.png'
 import HeaderSocial from './HeaderSocial'
 import "./header.css"
 
